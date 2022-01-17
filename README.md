@@ -60,4 +60,20 @@ Global training stage stored in ***Tensorboard2*** folder.
 Use command line ```cmd``` and ```tensorboard --logidr=Tensorboard1``` ```tensorboard --logidr=Tensorboard2``` get url to open chrome visualisation of the training process.
 
 Following is an example of a visual file of our team training process:
-![](url'')
+
+![](http://r.photo.store.qq.com/psc?/V51wK6B50SnpHF0Ql90V120XkX2YMvAu/TmEUgtj9EK6.7V8ajmQrEIpmQ47zgFOBI9a6yOLTi4gZevkIf1uXGmJXS6k8uiuv.ktv*HxSJjWwQ0J3Sdv3mQT72*MZAUQwBxpcuo4Vkgw!/r "")
+
+**Transfer training stage Training set accuracy**
+
+![](http://r.photo.store.qq.com/psc?/V51wK6B50SnpHF0Ql90V120XkX2YMvAu/TmEUgtj9EK6.7V8ajmQrEDfkNWrqht5yDiLXscE4cXFH4CxHEwIVuaN.PKkrC9RVkoFTu3jFtRYsu86B8Eg92q8Op1n*Rj5z0PB8fR6ivVg!/r)
+
+**Transfer training stage Validation set accuracy**
+
+
+![](http://r.photo.store.qq.com/psc?/V51wK6B50SnpHF0Ql90V120XkX2YMvAu/TmEUgtj9EK6.7V8ajmQrEO0sF5P5q*yZlu1iae2zqofivYhtW.Ra0kKySTKADmoFAgV9HKkDED41xk20nRHtrn87PsFH5HhnFysXSB8LKTw!/r"")
+
+**Global training stage Training set accuracy**
+
+![](http://r.photo.store.qq.com/psc?/V51wK6B50SnpHF0Ql90V120XkX2YMvAu/TmEUgtj9EK6.7V8ajmQrEG0zTyKANlxPSyP1ZzrFpMXnluthXlO0VfpKmfXsn7PjqC9ErP6.tmKTJnF0bFt2Vwn7PuHCGSAuveuvXk39.Ko!/r)
+
+**Global training stage Validation set accuracy**
