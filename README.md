@@ -47,4 +47,17 @@ optimizer = Adam(lr=1e-4)
 
 3.Run the ***<train.py>***.
 
-4.The output neural network weights will be saved in the ***logs*** file.
+4.The output neural network weights will be saved in the ***logs*** folder.
+
+# Neural Network Accuracy
+
+Use tensorboard record the loss function and accuracy of the training process.
+
+Transfer training stage stored in ***Tensorboard1*** folder.
+
+Global training stage stored in ***Tensorboard2*** folder.
+
+Use command line ```cmd``` and ```tensorboard --logidr=Tensorboard1``` ```tensorboard --logidr=Tensorboard2``` get url to open chrome visualisation of the training process.
+
+Following is an example of a visual file of our team training process:
+![](url'')
