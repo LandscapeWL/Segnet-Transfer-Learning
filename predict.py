@@ -13,13 +13,13 @@ NCLASSES = 19
 HEIGHT = 416
 WIDTH = 416
 model = resnet50_segnet(n_classes=NCLASSES,input_height=HEIGHT, input_width=WIDTH)
-model.load_weights("logs/last1.h5")
+model.load_weights("logs/ep039-loss0.170-val_loss0.186.h5")
 # please change to your train path
-imgs = os.listdir(r"C:\Users\WL\Desktop\Segnet Transfer-Learning\img/")
+imgs = os.listdir(r"E:\202006Segmentaion\Segnet Transfer-Learning\img/")
 
 for jpg in imgs:
 
-    img = Image.open(r"C:\Users\WL\Desktop\Segnet Transfer-Learning\img/"+jpg)
+    img = Image.open(r"E:\202006Segmentaion\Segnet Transfer-Learning\img/"+jpg)
 
     old_img = copy.deepcopy(img)
     orininal_h = np.array(img).shape[0]
