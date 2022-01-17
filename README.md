@@ -24,3 +24,27 @@ The Cityscapes is an open data set that can be downloaded from the official webs
 (https://www.cityscapes-dataset.com/)
 
 # Train your own neural network
+
+1.Prepare the cityscapes training dataset and modify the path to the dataset in the train file.
+
+2.Open the ***<train.py>*** and change the training parameters, which I have as follows:
+
+```
+batch_size = 2
+
+Transfer training:
+
+epoch = 20
+
+optimizer = Adam(lr=1e-3)
+
+Global training:
+
+epoch = 40
+
+optimizer = Adam(lr=1e-4)
+```
+
+3.Run the ***<train.py>***.
+
+4.The output neural network weights will be saved in the ***logs*** file.
